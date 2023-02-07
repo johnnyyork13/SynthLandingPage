@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Sign-up Form</title>
+</head>
+<body>
+    <main>
+        <aside>
+            <img src="synthwave.png">
+        </aside>
+        <section id="mainSection">
+            <section id="mainTop">
+                <div id="paraDiv">
+                    <p class="para">This is not a real online service! You know you
+                        need something like this in your life to help you
+                        realize your deepest dreams. Sign up <em>now</em> to
+                        get you started.
+                    </p>
+                    <p class="para">You <em>know</em> you want to.</p>
+                </div>
+                <div id="formDiv">
+                    <p id="formPara" class="para">Let's do this!</p>
+                    <form id="mainForm" >
+                        <div id="formLeft">
+                            <div class="inputDiv">
+                                <label for="fName">FIRST NAME</label>
+                                <input type="text" id="fName" class="input" required>
+                            </div>
+                            <div class="inputDiv">
+                                <label for="email">EMAIL</label>
+                                <input type="email" id="email" class="input" required>
+                            </div>
+                            <div class="inputDiv">
+                                <label for="password">PASSWORD</label>
+                                <input type="password" id="password" class="input" required>
+                            </div>
+                        </div>
+
+                        <div id="formRight">
+                            <div class="inputDiv">
+                                <label for="lName">LAST NAME</label>
+                                <input type="text" id="lName" class="input" required>
+                            </div>
+                            <div class="inputDiv">
+                                <label for="tel">PHONE NUMBER</label>
+                                <input type="tel" id="tel" class="input" minlength="8" maxlength="16" required>
+                            </div>
+                            <div class="inputDiv">
+                                <label for="confirmPassword">CONFIRM PASSWORD</label>
+                                <input type="password" id="confirmPassword" class="input" minlength="8" maxlength="16" required>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </section>
+            <section id="mainBottom">
+                <div id="buttonDiv">
+                    <button form="mainForm" id="submitBtn">Create Account</button>
+                    <p>Already have an account? Log In</p>
+                </div>
+            </section>
+        </section>
+    </main>
+
+    <script src="javascript.js"></script>
+</body>
+</html>

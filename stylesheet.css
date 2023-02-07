@@ -1,0 +1,125 @@
+body {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 98vh;
+    background-color: rgb(5, 0, 26);
+    z-index: 2;
+}
+
+main {
+    position: relative;
+    display: flex;
+    width: 75%;
+    height: 100%;
+    background-color: white;
+}
+
+aside {
+    z-index: 0;
+    width: 40%;
+    position: relative;
+    overflow: hidden;
+}
+
+aside img {
+    position: absolute;
+    height: 100%;
+    left: -470px;
+}
+
+#mainSection {
+    position: relative;
+    width: 60%;
+    background-color: rgb(247, 246, 246);
+}
+
+#mainTop {
+    width: 100%;
+    height: 55%;
+}
+
+.para {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+#paraDiv {
+    width: 80%;
+    margin-top: 100px;
+    margin-left: 50px;
+}
+
+#formPara {
+    margin-left: 50px;
+}
+
+#formDiv {
+    margin-top: 50px;
+    width: 100%;
+    height: 57%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px .3em rgb(186, 186, 186);
+    background-color: white;
+
+}
+
+form {
+    display: flex;
+}
+
+.inputDiv {
+    margin: 20px;
+    margin-left: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    color:rgb(96, 96, 96);
+    font-weight: bold;
+    font-size: .8em;
+    
+}
+
+.inputDiv label {
+    display: block;
+}
+
+.inputDiv input {
+    width: 220px;
+    border-radius: 2px;
+    border: 2px solid rgb(173, 173, 173);
+}
+
+input:focus-visible {
+    box-shadow: 1px 1px 3px 3px rgba(5, 0, 26, 0.364);
+    outline: none;
+    border: 2px solid white;
+}
+
+#mainBottom {
+    height: 30%;
+    position: relative;
+}
+
+#buttonDiv {
+    position: absolute;
+    left: 50px;
+    top: 10px;
+    font-weight: bold;
+}
+
+button {
+    width: 200px;
+    height: 40px;
+    border-radius: 8px;
+    border: none;
+    background-color:rgb(5, 0, 26);
+    color: white;
+    font-weight: bold;
+}
+
+button:hover {
+    cursor: pointer;
+}
